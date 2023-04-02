@@ -16,7 +16,7 @@ def read_input():
     if "I" in choice:
         return (input().rstrip(), input().rstrip())
     elif "F" in choice:
-        lines = open("./tests/"+str(input()),"r").readlines()
+        lines = open("./tests/06","r").readlines()
         return (lines[0].rstrip(), lines[1].rstrip())
     else:
         print("wrong command")
